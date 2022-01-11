@@ -1,0 +1,21 @@
+{
+  "name": "visual-nuts-challenge",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "",
+  "author": "Gabriel Brum <gbrum.rodrigues@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "npx prettier -w .",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
