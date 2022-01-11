@@ -70,7 +70,7 @@ module.exports = {
       });
 
       ret.push({
-        'country with the most official languages, where they officially speak German (de)':
+        'country with the most official languages, where German (de) is spoken':
           getDeCountryWithMostLanguages(countries),
       });
 

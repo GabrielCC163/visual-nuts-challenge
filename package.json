@@ -16,6 +16,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.0"
   }
 }
