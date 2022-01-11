@@ -26,7 +26,9 @@ const countriesData = [
 
 describe('GET /exercise2', () => {
   it(`should return 5, "BE" with languages, 5, "BE" with languages, "nl" and "de"`, async () => {
-    const response = await request(app).get('/exercise2').send(countriesData);
+    const response = await request(app)
+      .get('/exercise2')
+      .send(countriesData);
     const { status, body } = response;
 
     expect(status).toBe(200);
